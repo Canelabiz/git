@@ -147,15 +147,16 @@ Upload new branch to origin remote
 `git command --help`  
 use git help
 
-```sequence
+```mermaid
+sequenceDiagram
 Title: Git
-Working Directory->Stage: git add
-Stage->Local Repository: git commit
-Working Directory->Local Repository: git commit -a
-Local Repository->Remote Repository: git push
-Remote Repository->Local Repository: git fetch
-Local Repository->Working Directory: git merge
-Remote Repository->Working Directory: git pull
+Working Directory->>Stage: git add
+Stage->>Local Repository: git commit
+Working Directory->>Local Repository: git commit -a
+Local Repository->>Remote Repository: git push
+Remote Repository->>Local Repository: git fetch
+Local Repository->>Working Directory: git merge
+Remote Repository->>Working Directory: git pull
 ```
 
 ### The .gitgnore file
