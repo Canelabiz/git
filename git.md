@@ -20,6 +20,10 @@ C:\users\frago\documents\dev\SupportDirectory> git init
 Initialized empty Git repository in C:/Users/frago/Documents/dev/SupportDirectory/.git/
 ```
 
+### Change branch
+
+`git branch -M main`
+
 ## Local Changes
 
 `git status`  
